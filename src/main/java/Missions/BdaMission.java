@@ -17,4 +17,9 @@ public class BdaMission extends Mission{
     public String getPlace() {
         return this.objective;
     }
+
+    @Override
+    public Coordinates getPlaceCoordinat() {
+        return this.objectiveCoordinates;
+    }
 }

@@ -18,4 +18,9 @@ public class IntelligenceMission extends Mission{
     public String getPlace() {
         return this.region;
     }
+
+    @Override
+    public Coordinates getPlaceCoordinat() {
+        return this.regionCoordinates;
+    }
 }

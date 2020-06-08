@@ -18,4 +18,9 @@ public class AttackMission extends Mission{
     public String getPlace() {
         return this.target;
     }
+
+    @Override
+    public Coordinates getPlaceCoordinat() {
+        return this.targetCoordinates;
+    }
 }

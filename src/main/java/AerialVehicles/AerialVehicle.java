@@ -31,8 +31,8 @@ public abstract class AerialVehicle {
         this.hoursOfFlightSinceLastRepair = num;
     }
 
-    public void flyTo(Coordinates destination) {
-        System.out.println("Flying to:"+destination.getLongitude()+", "+destination.getLatitude());
+    public void flyTo() {
+        System.out.println("Flying to:"+this.mission.getPlaceCoordinat().getLongitude()+", "+this.mission.getPlaceCoordinat().getLatitude());
     }
     public void land() {
         System.out.println(("Landing"));
